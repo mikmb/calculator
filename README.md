@@ -1,3 +1,3 @@
 # calculator
 
-[Demo]().
+[Demo](https://mikmb.github.io/calculator/).
