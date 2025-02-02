@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="calc-container">
+        <!-- Result Display -->
+        <div id="display"></div>
+        <!-- Row 1 -->
+        <button class="buttons clear-button" value="clear">A/C</button>
+        <button class="buttons pos-neg-sign-button" value="sign">+/-</button>
+        <button class="buttons percent-button" value="percent">%</button>
+        <button class="buttons operator" value="/">/</button>
+        <!-- Row 2-->
+        <button class="buttons operand" value="7">7</button>
+        <button class="buttons operand" value="8">8</button>
+        <button class="buttons operand" value="9">9</button>
+        <button class="buttons operator" value="*">*</button>
+        <!-- Row 3 -->
+        <button class="buttons operand" value="4">4</button>
+        <button class="buttons operand" value="5">5</button>
+        <button class="buttons operand" value="6">6</button>
+        <button class="buttons operator" value="-">-</button>
+        <!-- Row 4 -->
+        <button class="buttons operand" value="1">1</button>
+        <button class="buttons operand" value="2">2</button>
+        <button class="buttons operand" value="3">3</button>
+        <button class="buttons operator" value="+">+</button>
+        <!-- Row 5 -->
+        <button class="buttons operand" id="zero" value="0">0</button>
+        <button class="buttons decimal-button" value=".">.</button>
+        <button class="buttons equal-sign-button" value="=">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
